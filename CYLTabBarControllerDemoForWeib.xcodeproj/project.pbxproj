@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4D04FEAFC0A82BCDD4E8AD95 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F63F88D99E99F3AF7EA96D8 /* libPods.a */; };
+		6DAF39A026705AF0F847BD5F /* libPods-CYLTabBarControllerDemoForWeib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6865913FEA4766726E780D93 /* libPods-CYLTabBarControllerDemoForWeib.a */; };
 		9A595CD21BDCDAA300DDC5F2 /* CYLDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A595CD11BDCDAA300DDC5F2 /* CYLDetailsViewController.m */; };
 		9A77A2EB1BDCC144009CD1A4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A77A2EA1BDCC144009CD1A4 /* main.m */; };
 		9A77A2EE1BDCC144009CD1A4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A77A2ED1BDCC144009CD1A4 /* AppDelegate.m */; };
@@ -21,6 +21,8 @@
 		9A77A3511BDCC577009CD1A4 /* CYLMessageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A77A33A1BDCC577009CD1A4 /* CYLMessageViewController.m */; };
 		9A77A3521BDCC577009CD1A4 /* CYLProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A77A3401BDCC577009CD1A4 /* CYLProfileViewController.m */; };
 		9A77A3571BDCC66E009CD1A4 /* CYLPlusButtonSubclass.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A77A3561BDCC66E009CD1A4 /* CYLPlusButtonSubclass.m */; };
+		AE8290831DFC41E5009FFB6C /* libCYLTabBarController.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AE8290821DFC41E5009FFB6C /* libCYLTabBarController.a */; };
+		AE8290851DFC437A009FFB6C /* libPods-CYLTabBarControllerDemoForWeib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AE8290841DFC437A009FFB6C /* libPods-CYLTabBarControllerDemoForWeib.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +37,8 @@
 
 /* Begin PBXFileReference section */
 		1F63F88D99E99F3AF7EA96D8 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		26A1DCE06F44CA5E2B4BD48A /* Pods-CYLTabBarControllerDemoForWeib.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CYLTabBarControllerDemoForWeib.release.xcconfig"; path = "Pods/Target Support Files/Pods-CYLTabBarControllerDemoForWeib/Pods-CYLTabBarControllerDemoForWeib.release.xcconfig"; sourceTree = "<group>"; };
+		6865913FEA4766726E780D93 /* libPods-CYLTabBarControllerDemoForWeib.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CYLTabBarControllerDemoForWeib.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7A0C30D53F8D17AAE8152C73 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		9A595CD01BDCDAA300DDC5F2 /* CYLDetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYLDetailsViewController.h; sourceTree = "<group>"; };
 		9A595CD11BDCDAA300DDC5F2 /* CYLDetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYLDetailsViewController.m; sourceTree = "<group>"; };
@@ -62,6 +66,9 @@
 		9A77A3401BDCC577009CD1A4 /* CYLProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYLProfileViewController.m; sourceTree = "<group>"; };
 		9A77A3551BDCC66E009CD1A4 /* CYLPlusButtonSubclass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYLPlusButtonSubclass.h; sourceTree = "<group>"; };
 		9A77A3561BDCC66E009CD1A4 /* CYLPlusButtonSubclass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYLPlusButtonSubclass.m; sourceTree = "<group>"; };
+		AE8290821DFC41E5009FFB6C /* libCYLTabBarController.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libCYLTabBarController.a; path = "../../Library/Developer/Xcode/DerivedData/CYLTabBarControllerDemoForWeib-flsjkhdoabqxcrhcmihsikpakiku/Build/Products/Debug-iphonesimulator/CYLTabBarController/libCYLTabBarController.a"; sourceTree = "<group>"; };
+		AE8290841DFC437A009FFB6C /* libPods-CYLTabBarControllerDemoForWeib.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libPods-CYLTabBarControllerDemoForWeib.a"; path = "../../Library/Developer/Xcode/DerivedData/CYLTabBarControllerDemoForWeib-flsjkhdoabqxcrhcmihsikpakiku/Build/Products/Debug-iphonesimulator/libPods-CYLTabBarControllerDemoForWeib.a"; sourceTree = "<group>"; };
+		B68CA32946FD72E89C32F37A /* Pods-CYLTabBarControllerDemoForWeib.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CYLTabBarControllerDemoForWeib.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CYLTabBarControllerDemoForWeib/Pods-CYLTabBarControllerDemoForWeib.debug.xcconfig"; sourceTree = "<group>"; };
 		C02E8BEB552629FF609070AE /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -70,7 +77,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4D04FEAFC0A82BCDD4E8AD95 /* libPods.a in Frameworks */,
+				AE8290851DFC437A009FFB6C /* libPods-CYLTabBarControllerDemoForWeib.a in Frameworks */,
+				AE8290831DFC41E5009FFB6C /* libCYLTabBarController.a in Frameworks */,
+				6DAF39A026705AF0F847BD5F /* libPods-CYLTabBarControllerDemoForWeib.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -89,6 +98,8 @@
 			children = (
 				7A0C30D53F8D17AAE8152C73 /* Pods.debug.xcconfig */,
 				C02E8BEB552629FF609070AE /* Pods.release.xcconfig */,
+				B68CA32946FD72E89C32F37A /* Pods-CYLTabBarControllerDemoForWeib.debug.xcconfig */,
+				26A1DCE06F44CA5E2B4BD48A /* Pods-CYLTabBarControllerDemoForWeib.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -322,7 +333,10 @@
 		F64EB5C0CB8A346C26B2C764 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				AE8290841DFC437A009FFB6C /* libPods-CYLTabBarControllerDemoForWeib.a */,
+				AE8290821DFC41E5009FFB6C /* libCYLTabBarController.a */,
 				1F63F88D99E99F3AF7EA96D8 /* libPods.a */,
+				6865913FEA4766726E780D93 /* libPods-CYLTabBarControllerDemoForWeib.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -334,12 +348,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9A77A3081BDCC144009CD1A4 /* Build configuration list for PBXNativeTarget "CYLTabBarControllerDemoForWeib" */;
 			buildPhases = (
-				C92F41010E8D4B2B7BC81C3D /* Check Pods Manifest.lock */,
+				C92F41010E8D4B2B7BC81C3D /* [CP] Check Pods Manifest.lock */,
 				9A77A2E11BDCC144009CD1A4 /* Sources */,
 				9A77A2E21BDCC144009CD1A4 /* Frameworks */,
 				9A77A2E31BDCC144009CD1A4 /* Resources */,
-				D87B1CDBD6686B7DB506C53D /* Embed Pods Frameworks */,
-				3ED0ABD0D3071384BE8C165A /* Copy Pods Resources */,
+				D87B1CDBD6686B7DB506C53D /* [CP] Embed Pods Frameworks */,
+				3ED0ABD0D3071384BE8C165A /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -425,49 +439,49 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		3ED0ABD0D3071384BE8C165A /* Copy Pods Resources */ = {
+		3ED0ABD0D3071384BE8C165A /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Copy Pods Resources";
+			name = "[CP] Copy Pods Resources";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CYLTabBarControllerDemoForWeib/Pods-CYLTabBarControllerDemoForWeib-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		C92F41010E8D4B2B7BC81C3D /* Check Pods Manifest.lock */ = {
+		C92F41010E8D4B2B7BC81C3D /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Check Pods Manifest.lock";
+			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
-		D87B1CDBD6686B7DB506C53D /* Embed Pods Frameworks */ = {
+		D87B1CDBD6686B7DB506C53D /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Embed Pods Frameworks";
+			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CYLTabBarControllerDemoForWeib/Pods-CYLTabBarControllerDemoForWeib-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -604,22 +618,32 @@
 		};
 		9A77A3091BDCC144009CD1A4 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7A0C30D53F8D17AAE8152C73 /* Pods.debug.xcconfig */;
+			baseConfigurationReference = B68CA32946FD72E89C32F37A /* Pods-CYLTabBarControllerDemoForWeib.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = CYLTabBarControllerDemoForWeib/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					/Users/xiangyang/Desktop/CYLTabBarControllerDemoForWeib/Pods/CYLTabBarController,
+					"$(inherited)",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
 		};
 		9A77A30A1BDCC144009CD1A4 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C02E8BEB552629FF609070AE /* Pods.release.xcconfig */;
+			baseConfigurationReference = 26A1DCE06F44CA5E2B4BD48A /* Pods-CYLTabBarControllerDemoForWeib.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = CYLTabBarControllerDemoForWeib/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					/Users/xiangyang/Desktop/CYLTabBarControllerDemoForWeib/Pods/CYLTabBarController,
+					"$(inherited)",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
